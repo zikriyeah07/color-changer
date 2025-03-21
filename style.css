@@ -1,0 +1,85 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+
+  .grey{
+    
+    background: grey;
+
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  #purple{
+    background-color: purple;
+  }
+.textChanger{
+  color: white;
+  background-color: brown;
+  text-shadow: 1cap;
+  text-decoration: solid;
+  text-transform: uppercase;
+  font-style: italic ;
+  font-weight: 900;
+  border: 1px;
+  border-radius: 8px;
+  transition-duration: 0.2s;
+  &:hover{
+    background-color: aliceblue;
+    color: black;
+  }
+  &:active{
+    background-color: rgb(144, 112, 23);
+    color: rgb(214, 188, 188);
+    scale: 1.1;
+  }
+}
+.body{  background-color: black; color: aliceblue}
+
+.black{
+  color: rgb(0, 0, 0);
+  background-color: rgb(239, 239, 239);
+}
+
+#reset{
+  position: absolute;
+  /* top: 0; */
+  bottom: 10px;
+  left: 4pc;
+  width: 45px;
+  height: 18px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+
+
+  &:active{
+    display: none;
+  }
+}
